@@ -1,7 +1,8 @@
 defmodule Client.Decoders do
   @moduledoc """
   # Provided Decoders
-   - JSON
+   - `JSON`
+
       This uses Poison to decode responses from a server. It sets a custom
       `Accept` header to `application/json` so the server knows what data
       to respond with.

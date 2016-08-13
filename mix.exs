@@ -33,6 +33,7 @@ defmodule Client.Mixfile do
   defp deps do
     [{:httpoison, "~> 0.9.0"},
      {:httpoison_form_data, "~> 0.1"},
+     {:ex_doc, ">= 0.0.0", only: :dev},
      {:poison, "~> 2.0"},
      {:bypass, "~> 0.1", only: :test}]
   end
