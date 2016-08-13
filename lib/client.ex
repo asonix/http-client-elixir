@@ -105,7 +105,7 @@ defmodule Client do
         :ok,
         %{
           "args" => %{},
-          "data" => "{\"key2\":[\"value1\",\"value2\"],\"key\":\"value\"}",
+          "data" => "{\\"key2\\":[\\"value1\\",\\"value2\\"],\\"key\\":\\"value\\"}",
           "files" => %{},
           "form" => %{},
           "headers" => %{
