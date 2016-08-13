@@ -193,7 +193,9 @@ end
 Helper functions like these make working with HTTP incredibly easy.
 
 ## License
+```
 Copyright © 2016 Riley Trautman, <asonix.dev@gmail.com>
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the MIT License. See the LICENSE file for more details.
+```
