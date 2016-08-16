@@ -124,6 +124,8 @@ end
 ```
 
 See the `Client.Encoders` behaviour for exact typespecs.
+See [SecureClient](https://github.com/asonix/secure-client-elixir) for an
+example custom Encoder.
 
 ### Deocoders
 #### Provided Decoders
@@ -147,6 +149,8 @@ end
 ```
 
 See the `Client.Decoders` behaviour for exact typespecs.
+See [SecureClient](https://github.com/asonix/secure-client-elixir) for an
+example custom Decoder.
 
 ### Actions
 Actions are the part that actually make the HTTP Request, if that is what you

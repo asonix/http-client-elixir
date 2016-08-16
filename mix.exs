@@ -23,8 +23,7 @@ defmodule Client.Mixfile do
   end
 
   def package do
-    [# These are the default files included in the package
-     name: :http_client,
+    [name: :http_client,
      maintainers: ["Riley Trautman", "asonix.dev@gmail.com"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/asonix/http-client-elixir"}]
