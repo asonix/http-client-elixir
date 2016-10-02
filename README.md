@@ -11,7 +11,7 @@ The package can be installed as:
 
     ```elixir
     def deps do
-      [{:http_client, "~> 0.1.0"}]
+      [{:http_client, "~> 0.1.1"}]
     end
     ```
 
