@@ -3,8 +3,8 @@ defmodule Client.Mixfile do
 
   def project do
     [app: :http_client,
-     version: "0.1.1",
-     elixir: "~> 1.3",
+     version: "0.2.0",
+     elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      description: description(),
@@ -30,10 +30,10 @@ defmodule Client.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.9.0"},
+    [{:httpoison, "~> 0.11.0"},
      {:httpoison_form_data, "~> 0.1"},
      {:ex_doc, ">= 0.0.0", only: :dev},
-     {:poison, "~> 2.0"},
-     {:bypass, "~> 0.1", only: :test}]
+     {:poison, "~> 3.0"},
+     {:bypass, "~> 0.6", only: :test}]
   end
 end
