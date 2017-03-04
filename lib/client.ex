@@ -93,7 +93,7 @@ defmodule Client do
   ## Examples
 
       data = Client.do_request(
-        "https://httpbin.org",
+        "https://httpbin.org/post",
         %{"key" => "value", "key2" => ["value1", "value2"]},
         %{"Header" => "Header/Value"},
         Client.Encoders.JSON,
@@ -183,7 +183,7 @@ defmodule Client do
       status in [200, 201] ->
         decoder.decode!(body)
       status == 204 ->
-        {:ok, :no_content}
+        :no_content
       true ->
         with {:error, error} <- ResponseNot200Error.exception(response),
           do: raise error
