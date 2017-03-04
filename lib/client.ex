@@ -93,7 +93,7 @@ defmodule Client do
   ## Examples
 
       data = Client.do_request(
-        "https://httpbin.org",
+        "https://httpbin.org/post",
         %{"key" => "value", "key2" => ["value1", "value2"]},
         %{"Header" => "Header/Value"},
         Client.Encoders.JSON,
